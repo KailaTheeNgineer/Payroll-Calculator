@@ -14,6 +14,7 @@ public class PayrollCalculator {
 
 
             String input;
+            bufReader.readLine();
             while ((input = bufReader.readLine()) != null) {
                         String[] split = input.split("\\|");
                         int id = Integer.parseInt(split[0]);
